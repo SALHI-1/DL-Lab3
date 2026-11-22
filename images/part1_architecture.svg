@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <text x="480" y="32" text-anchor="middle" font-size="18.5" font-weight="bold" fill="#0f172a">Pipeline de Traitement NLP Arabe &amp; Classification Séquentielle</text>
+
+  <g transform="translate(24, 62)">
+    <rect width="152" height="96" rx="10" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+    <text x="76" y="32" text-anchor="middle" font-size="13" font-weight="bold" fill="#115e59">1. Web Scraping</text>
+    <text x="76" y="54" text-anchor="middle" font-size="11" fill="#334155">BeautifulSoup</text>
+    <text x="76" y="72" text-anchor="middle" font-size="10.5" fill="#64748b">Cybersécurité (AR)</text>
+  </g>
+  <line x1="178" y1="110" x2="210" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(216, 62)">
+    <rect width="152" height="96" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="76" y="32" text-anchor="middle" font-size="13" font-weight="bold" fill="#1d4ed8">2. Normalisation</text>
+    <text x="76" y="54" text-anchor="middle" font-size="11" fill="#334155">Tashkeel &amp; Tatweel</text>
+    <text x="76" y="72" text-anchor="middle" font-size="10.5" fill="#64748b">Alif / Yaa / Hamza</text>
+  </g>
+  <line x1="370" y1="110" x2="402" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(408, 62)">
+    <rect width="152" height="96" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="76" y="32" text-anchor="middle" font-size="13" font-weight="bold" fill="#b45309">3. Morphologie</text>
+    <text x="76" y="54" text-anchor="middle" font-size="11" fill="#334155">Stopwords NLTK</text>
+    <text x="76" y="72" text-anchor="middle" font-size="10.5" fill="#64748b">ARLSTem2 + ISRI</text>
+  </g>
+  <line x1="562" y1="110" x2="594" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(600, 62)">
+    <rect width="152" height="96" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="76" y="32" text-anchor="middle" font-size="13" font-weight="bold" fill="#6d28d9">4. Discrétisation</text>
+    <text x="76" y="54" text-anchor="middle" font-size="11" fill="#334155">Score 0-10 -&gt; 3 Classes</text>
+    <text x="76" y="72" text-anchor="middle" font-size="10.5" fill="#64748b">Vocab &amp; Padding (35)</text>
+  </g>
+  <line x1="754" y1="110" x2="786" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(792, 62)">
+    <rect width="144" height="96" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="72" y="32" text-anchor="middle" font-size="13" font-weight="bold" fill="#b91c1c">5. Modèles + Tuning</text>
+    <text x="72" y="54" text-anchor="middle" font-size="11" fill="#334155">RNN / BiRNN</text>
+    <text x="72" y="72" text-anchor="middle" font-size="10.5" fill="#64748b">GRU / LSTM + BLEU</text>
+  </g>
+
+  <text x="480" y="202" text-anchor="middle" font-size="12" fill="#64748b">Étudiant : Mohammed SALHI — LSI 3ème Année — FST Tanger</text>
+</svg>
